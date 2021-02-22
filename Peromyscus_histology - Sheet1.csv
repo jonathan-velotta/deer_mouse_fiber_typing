@@ -137,24 +137,24 @@ ML_F1_9_c,P. melanophrys,ML,M,ML-9,3/23/15,highland,4500,1,ML_4500-1,5/9/16,1500
 ML_F1_9_e,P. melanophrys,ML,M,ML-9,5/24/15,highland,3000,1,ML_3000-1,5/7/16,1500,,,,,,,,,,,,,,10 images,
 ML_F1_9_f,P. melanophrys,ML,F,ML-9,6/24/15,highland,1000,2,ML_1000-2,5/6/16,1500,,,,,,,,,,,,,,soleus,
 ML_F1_9_h,P. melanophrys,ML,M,ML-9,6/24/15,highland,1000,1,ML_1000-1,5/5/16,1500,,,,,,,,,,,,,,"air bubbles, broken and cracked",
-Mus_31a,,,,,,,,,,,,,,,,,,,,,1,6/6/19,1/27/20,HE,,
-Mus_31m,,,,,,,,,,,,,,,,,,,,,1,5/8/19,6/4/19,HE,,"Glycolytic cells on most images, difficult to decipher, impossible for images 1,2, 6, 7, 8, 12, 13, 14, and 15."
-Mus_31n,,,,,,,,,,,,,,,,,,,,,1,6/6/19,6/13/19,HE,"blurry, air bubbles, 13 images",
-Mus_34a,,,,,,,,,,,,,,,,,,,,,1,5/8/19,6/12/19,HE,"small sections, air bubbles, 14 images","Glycolytic cells indechiperable in image 1, 2, 3, 10, 11, and 12. "
-Mus_34b,,,,,,,,,,,,,,,,,,,,,2,1/21/20,2/27/20,HE,"Accidently stained 2x, all sections were bad, 13 images",
-Mus_34m,,,,,,,,,,,,,,,,,,,,,1,6/6/19,6/13/19,HE,,
-Mus_41m,,,,,,,,,,,,,,,,,,,,,1,6/6/19,6/13/19,HE,"broken and cracked cells,  12 images",
-Mus_43a,,,,,,,,,,,,,,,,,,,,,1,6/6/19,6/13/19,HE,long cells,
-Mus_43c,,,,,,,,,,,,,,,,,,,,,1,5/8/19,6/12/19,HE,,Image 6 and 14 glycolytic cells indecipherable.
-Mus_43d,,,,,,,,,,,,,,,,,,,,,1,5/8/19,6/4/19,HE,NO PIGMENT=UNIMAGEABLE,
-Mus_43e,,,,,,,,,,,,,,,,,,,,,1,5/8/19,6/4/19,HE,,Glycolytic cells can not be deciphered. 
-Mus_43m,,,,,,,,,,,,,,,,,,,,,1,6/6/19,6/13/19,HE,"broken and cracked cells, air bubbles, 14 images",Glycolytic cells in images 13 and 14 not decipherable. 
-Mus_44a,,,,,,,,,,,,,,,,,,,,,1,5/8/19,6/12/19,HE,"soleus(avoided), breakage, 14 images",
-Mus_44b,,,,,,,,,,,,,,,,,,,,,1,5/8/19,6/12/19,HE,,Cells are indecipherable in image 5.
-Mus_44c,,,,,,,,,,,,,,,,,,,,,1,6/6/19,1/27/20,HE,,
-Mus_44d,,,,,,,,,,,,,,,,,,,,,1,5/8/19,6/12/19,HE,,"Glycolytic cells in image 1, 3, 6, 7, and 14 not decipherable."
-Mus_44e,,,,,,,,,,,,,,,,,,,,,1,6/6/19,6/13/19,HE,,
-Mus_44m,,,,,,,,,,,,,,,,,,,,,1,5/8/19,6/4/19,HE,,
+Mus_31a,M. musculus,MUS,M,,,lowland,1000,,,,,,,,,,,,,,1,6/6/19,1/27/20,HE,,
+Mus_31n,M. musculus,MUS,M,,,lowland,4500,,,,,,,,,,,,,,1,6/6/19,6/13/19,HE,"blurry, air bubbles, 13 images",
+Mus_34a,M. musculus,MUS,F,,,lowland,3000,,,,,,,,,,,,,,1,5/8/19,6/12/19,HE,"small sections, air bubbles, 14 images","Glycolytic cells indechiperable in image 1, 2, 3, 10, 11, and 12."
+Mus_34b,M. musculus,MUS,F,,,lowland,1000,,,,,,,,,,,,,,2,1/21/20,2/27/20,HE,"Accidently stained 2x, all sections were bad, 13 images",
+Mus_34m,M. musculus,MUS,M,,,lowland,1000,,,,,,,,,,,,,,1,6/6/19,6/13/19,HE,,
+Mus_41m,M. musculus,MUS,M,,,lowland,4500,,,,,,,,,,,,,,1,6/6/19,6/13/19,HE,"broken and cracked cells, 12 images",
+Mus_43a,M. musculus,MUS,F,,,lowland,1000,,,,,,,,,,,,,,1,6/6/19,6/13/19,HE,long cells,
+Mus_43c,M. musculus,MUS,F,,,lowland,1000,,,,,,,,,,,,,,1,5/8/19,6/12/19,HE,,Image 6 and 14 glycolytic cells indecipherable.
+Mus_43d,M. musculus,MUS,F,,,lowland,1000,,,,,,,,,,,,,,1,5/8/19,6/4/19,HE,NO PIGMENT=UNIMAGEABLE,
+Mus_43e,M. musculus,MUS,M,,,lowland,3000,,,,,,,,,,,,,,1,5/8/19,6/4/19,HE,,Glycolytic cells can not be deciphered.
+Mus_43m,M. musculus,MUS,M,,,lowland,4500,,,,,,,,,,,,,,1,6/6/19,6/13/19,HE,"broken and cracked cells, air bubbles, 14 images",Glycolytic cells in images 13 and 14 not decipherable.
+Mus_44a,M. musculus,MUS,M,,,lowland,3000,,,,,,,,,,,,,,1,5/8/19,6/12/19,HE,"soleus(avoided), breakage, 14 images",
+Mus_44b,M. musculus,MUS,F,,,lowland,4500,,,,,,,,,,,,,,1,5/8/19,6/12/19,HE,,Cells are indecipherable in image 5.
+Mus_44c,M. musculus,MUS,F,,,lowland,4500,,,,,,,,,,,,,,1,6/6/19,1/27/20,HE,,
+Mus_44d,M. musculus,MUS,F,,,lowland,4500,,,,,,,,,,,,,,1,5/8/19,6/12/19,HE,,"Glycolytic cells in image 1, 3, 6, 7, and 14 not decipherable."
+Mus_31m,M. musculus,MUS,M,,,lowland,1000,,,,,,,,,,,,,,1,5/8/19,6/4/19,HE,,"Glycolytic cells on most images, difficult to decipher, impossible for images 1,2, 6, 7, 8, 12, 13, 14, and 15."
+Mus_44e,M. musculus,MUS,F,,,lowland,4500,,,,,,,,,,,,,,1,6/6/19,6/13/19,HE,,
+Mus_44m,M. musculus,MUS,M,,,lowland,3000,,,,,,,,,,,,,,1,5/8/19,6/4/19,HE,,
 PO_006,P. polionotus,PO,F,D-1290,3/11/16,lowland,1000,3,PO_1000-3,,0,6/12/18,NO,No,"Large hole in OCT, slides 1,2,6 best",6,slide 1,,,,2,4/17/19,4/19/19,SD,,Glycolytic cells in image 9 indecipherable. 
 PO_027,P. polionotus,PO,M,D-1290,4/9/16,lowland,3000,3,PO_3000-3,,0,7/11/18,NO,no,redone after filling large hole,4,,,,,4,1/16/20,2/4/20,HE,,
 PO_034,P. polionotus,PO,F,D-1301,4/19/16,lowland,4500,3,PO_4500-3,,0,3/30/18,NO,No,avoid 1 and 3,6,slide 1,,,,4,1/16/20,,HE,,
