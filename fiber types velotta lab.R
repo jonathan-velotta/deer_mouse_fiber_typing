@@ -1,11 +1,12 @@
 # Make boxplots and explore the effects of multiple independent variables on ox and gly fibers
 # The codes below are with fixed Peromyscus Histology Sheet
 
-info2 <- read.csv("/Users/nicolechoi/Documents//R Studio/Peromyscus_histology - Sheet1.csv")[, -c(13:27)]
+info2 <- read.csv("/Users/nicolechoi/Documents//Peromyscus_histology - Sheet1 (1).csv")[, -c(13:27)]
 fiber <- read.csv("Fiber_type_quantification - Sheet1.csv") 
 data_full <- merge(fiber, info2, by="Mouse_ID")
 fiber_avg <- read.csv("Fiber_type_avg - Sheet1.csv") 
 data_avg <- merge(fiber_avg, info2, by="Mouse_ID")
+data_avg <- na.omit(data_avg)
 
 boxplot(avg_ox ~ Strain, data = data_avg)
 # Average oxidative cells in PO strain is highest (has outlier). MUS strain has lowest average. 
@@ -33,6 +34,7 @@ boxplot(avg_gly ~ Species, data = data_avg)
 # M.musculus has highest average. Species that had highest in oxidative is lowest. 
 # Family and DOB are very skewed
 # Change 
+boxplot(avg_ox ~ Treatment..meters.*Strain, data = data_avg)
 
 
 
