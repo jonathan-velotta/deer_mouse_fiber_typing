@@ -32,8 +32,7 @@ boxplot(avg_ox ~ Species, data = data_avg)
 # Species not stated for some. M.musculus has smallest average. 
 boxplot(avg_gly ~ Species, data = data_avg)
 # M.musculus has highest average. Species that had highest in oxidative is lowest. 
-# Family and DOB are very skewed
-# Change 
+# Family and DOB are very skewed. 
 boxplot(avg_ox ~ Treatment..meters.*Strain, data = data_avg)
 
 
