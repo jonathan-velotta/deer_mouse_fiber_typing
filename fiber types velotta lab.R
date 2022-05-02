@@ -4,8 +4,9 @@
 info2 <- read.csv("/Users/nicolechoi/Documents//Peromyscus_histology - Sheet1 (1).csv")[, -c(13:27)]
 fiber <- read.csv("Fiber_type_quantification - Sheet1.csv") 
 data_full <- merge(fiber, info2, by="Mouse_ID")
-fiber_avg <- read.csv("Fiber_type_avg - Sheet1.csv") 
-data_avg <- merge(fiber_avg, info2, by="Mouse_ID")
+# fiber_avg <- read.csv("Fiber_type_avg - Sheet1.csv") 
+fiber_avg1 <- read.csv("Fiber_type_avg_no_outliers.csv") 
+data_avg <- merge(fiber_avg1, info2, by="Mouse_ID")
 data_avg <- na.omit(data_avg)
 
 boxplot(avg_ox ~ Strain, data = data_avg)
@@ -34,6 +35,30 @@ boxplot(avg_gly ~ Species, data = data_avg)
 # M.musculus has highest average. Species that had highest in oxidative is lowest. 
 # Family and DOB are very skewed, no coorelation.  
 boxplot(avg_ox ~ Treatment..meters.*Strain, data = data_avg)
+boxplot(avg_gly ~Treatment..meters.*Strain, data = data_avg)
+
+# low <- subset(data_avg, Treatment..meters.=="1000")
+# mid <- subset(data_avg, Treatment..meters.=="3000")
+# high <- subset(data_avg, Treatment..meters.=="4500")
+# 
+# boxplot(avg_ox ~ Treatment..meters.*Strain, data = low)
+# boxplot(avg_ox ~ Treatment..meters.*Strain, data = mid)
+# boxplot(avg_ox ~ Treatment..meters.*Strain, data = high)
+# boxplot(avg_gly ~ Treatment..meters.*Strain, data = low)
+# boxplot(avg_gly ~ Treatment..meters.*Strain, data = mid)
+# boxplot(avg_gly ~ Treatment..meters.*Strain, data = high)
+
+data_avg1 <- data_avg[-c(74:91), ]
+low <- subset(data_avg1, Treatment..meters.=="1000")
+mid <- subset(data_avg1, Treatment..meters.=="3000")
+high <- subset(data_avg1, Treatment..meters.=="4500")
+
+boxplot(avg_ox ~ Treatment..meters.*Strain, data = low)
+boxplot(avg_ox ~ Treatment..meters.*Strain, data = mid)
+boxplot(avg_ox ~ Treatment..meters.*Strain, data = high)
+boxplot(avg_gly ~ Treatment..meters.*Strain, data = low)
+boxplot(avg_gly ~ Treatment..meters.*Strain, data = mid)
+boxplot(avg_gly ~ Treatment..meters.*Strain, data = high)
 
 
 
